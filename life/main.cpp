@@ -11,7 +11,7 @@ private:
 	double energy = 100;
 	static int life;
 	static int playerdamage;
-	static int enemy;
+	int enemy=100;
 	static int coin;
 	int Hpp = 3;
 public:
@@ -25,7 +25,6 @@ public:
 };
 int Game::life = 10;
 int Game::playerdamage = 10;
-int Game::enemy = 100;
 int Game::coin = 200;
 void Game::market()
 {
